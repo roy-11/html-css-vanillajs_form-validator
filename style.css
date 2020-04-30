@@ -78,6 +78,10 @@ h2 {
   visibility: hidden;
 }
 
+.form-control.error small {
+  visibility: visible;
+}
+
 .form button {
   cursor: pointer;
   background-color: #3498db;
@@ -89,4 +93,12 @@ h2 {
   color: #fff;
   font-size: 16px;
   width: 100%;
+}
+
+.form button:focus {
+  outline: 0;
+}
+
+.form button:active {
+  transform: scale(0.98);
 }
